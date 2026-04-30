@@ -1,0 +1,28 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Test artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Project ephemera
+step_archive/screenshots/
+step_archive/references/
+step_archive/preview.log
+step_archive/dev.log
+step_archive/bundle-report.html
+step_archive/verify.cjs

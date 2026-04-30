@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(rm -f .claude/hooks/step-auto-continue.state)"
+    ]
+  }
+}

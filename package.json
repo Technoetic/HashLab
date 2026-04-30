@@ -1,0 +1,35 @@
+{
+  "name": "hash-function-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive web tutorial for hash functions - 해시 함수 인터랙티브 학습 튜토리얼",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check src",
+    "format": "biome format --write src",
+    "stylelint": "stylelint \"src/**/*.css\"",
+    "a11y": "playwright test tests/a11y.spec.ts"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.2",
+    "@biomejs/biome": "^2.4.12",
+    "@lhci/cli": "^0.15.1",
+    "@playwright/test": "^1.59.1",
+    "@vitest/coverage-v8": "^4.1.5",
+    "c8": "^11.0.0",
+    "jscpd": "^4.0.9",
+    "knip": "^6.7.0",
+    "madge": "^8.0.0",
+    "rollup-plugin-visualizer": "^7.0.1",
+    "stylelint": "^17.8.0",
+    "stylelint-config-standard": "^40.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^5.4.21",
+    "vitest": "^1.6.1"
+  }
+}
